@@ -19,7 +19,7 @@ def main():
 
     browser = args.browser
 
-    max_num_pages = 100
+    max_num_pages = 1000 # probably can't be more than 200, put limit there just in case
 
     session = requests.Session()
 
