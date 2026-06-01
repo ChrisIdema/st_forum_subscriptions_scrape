@@ -14,7 +14,7 @@ def main():
                                     description='Scrape subscriptions from your st community forum account before they are deleted in migration.'
                                     #,epilog=''
                                     )
-    parser.add_argument("--browser", "-b", help="Select your browser (e.g. firefox or chrome, chrome is default)", type=str, default='chrome')    
+    parser.add_argument("--browser", "-b", help="Select your browser (e.g. firefox or chrome, firefox is default)", type=str, default='firefox')    
     args = parser.parse_args()
 
     browser = args.browser
